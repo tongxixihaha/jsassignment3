@@ -1,0 +1,142 @@
+{
+    "liquids": [{
+            "name": "Ice",
+            "active": true
+        },
+        {
+            "name": "1% milk",
+            "active": true
+        },
+        {
+            "name": "2% milk",
+            "active": true
+        },
+        {
+            "name": "3% milk",
+            "active": true
+        },
+        {
+            "name": "chocolate milk",
+            "active": true
+        },
+        {
+            "name": "lactose free milk",
+            "active": true
+        },
+        {
+            "name": "water",
+            "active": true
+        },
+        {
+            "name": "coconut water",
+            "active": true
+        },
+        {
+            "name": "ice coffee",
+            "active": true
+        },
+        {
+            "name": "pineapple juice",
+            "active": true
+        },
+        {
+            "name": "mango juice",
+            "active": true
+        }
+    ],
+    "fruits": [{
+            "name": "strawberries",
+            "active": true
+        },
+        {
+            "name": "blueberries",
+            "active": true
+        },
+        {
+            "name": "raspberries",
+            "active": true
+        },
+       
+        {
+            "name": "grapes",
+            "active": true
+        },
+        {
+            "name": "peach",
+            "active": true
+        },
+        {
+            "name": "mango",
+            "active": true
+        },
+        {
+            "name": "bannana",
+         
+            "active": true
+        },
+        {
+            "name": "apple",
+            "active": true
+        },
+        {
+            "name": "oranges",
+            "active": true
+        }
+    ],
+    "veggies": [{
+            "name": "spinnach",
+            "active": true
+        },
+        {
+            "name": "kale",
+            "active": true
+        },
+        {
+            "name": "cabbage",
+            "active": true
+        },
+        {
+            "name": "carrot",
+            "active": true
+        },
+        {
+            "name": "cucumber",
+            "active": true
+        },
+        {
+            "name": "tomato",
+            "active": true
+        },
+        {
+            "name": "peas",
+            "active": true
+        },
+        {
+            "name": "celery",
+            "active": true
+        },
+        {
+            "name": "Zucchini",
+            "active": true
+        }
+    ],
+    "specialty": [
+            
+        {
+            "name": "Brown Suger",
+            "active": true
+        },
+        {
+            "name": "Green tea",
+            "active": true
+        },
+        {
+            "name": "Black tea",
+            "active": true
+        },
+        {
+            "name": "wheat grass",
+            "active": true
+        }    
+    ]
+}

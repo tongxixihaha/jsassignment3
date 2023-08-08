@@ -1,0 +1,57 @@
+
+
+section {
+    width: 85vw;
+    margin-left: 7.5vw;
+    margin-top: 7.5vw;
+    background-color: lightpink;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'bold', sans-serif;
+}
+#image1 {
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    place-content: center ;
+}
+
+
+section:last-of-type {
+    width: 50vw;
+    margin-left: 25vw;
+    background-color: pink;
+    font-size: medium;
+}
+
+
+fieldset {
+    display:flow-root;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+
+#fieldsetContainer {
+    display: block;
+    background-color: lightcoral;
+    margin-top: 1vw;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+input[type="checkbox"] label {
+    margin-left: 5px;
+}
+#submitButton {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: brown;
+    font-size: 1vw;
+}
+#newOrder {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: brown;
+    font-size: 1vw;
+}

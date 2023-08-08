@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 - Smoothie Machine</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/smoothiemachine.js" defer></script>
+</head>
+
+<body>
+    <header>
+    </header>
+    <section id="smoothieMachineSection">
+        <h1 id="header">Welcome to Healthy Smoothie Machine</h1>
+        <img id="image1"src="image1.jpg" alt="Smoothie">
+        <form>
+            <fieldset>
+                <legend>Cup Size</legend>
+                <input checked="true" type="radio" id="small" name="size" value="small">
+                <label for="small">Small size</label>
+                <input type="radio" id="medium" name="size" value="medium">
+                <label for="medium">Medium size</label>
+                <input type="radio" id="large" name="size" value="large">
+                <label for="large">Large size</label>
+            </fieldset>
+            <!-- choose the smothie -->
+            <fieldset id="fieldsetContainer">
+                <legend>Please select your smoothie options</legend>
+
+                <fieldset id="liquidFieldSet">
+                    <legend>Choose your smoothie base </legend>
+                </fieldset>
+                <fieldset id="fruitFieldSet">
+                    <legend>Adding your favourite fruits</legend>
+                </fieldset>
+    
+                <fieldset id="veggieFieldSet">
+                    <legend>Adding your favourite veggie </legend>
+                </fieldset>
+
+                <fieldset id="specialtyFieldSet">
+                    <legend>Adding some specialty</legend>
+                </fieldset>
+            </fieldset>
+            <input type="button" id="submitButton" value="Place Order">
+        </form>
+        <!-- output section-->
+    </section>
+    <section id="yourOrderSection" style="display:none">
+        <h1>Here is your smoothie </h1>
+        <p id="output"></p>
+        <p id="output2"></p>
+        <input type="button" id="newOrder" value="New Order">
+    </section>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
